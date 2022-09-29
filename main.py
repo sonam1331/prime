@@ -1,15 +1,9 @@
-num = 7
-if num >1:
-    for i in range(2,int(num/2)+1):
-        if (num%i)==0:
-            print(num, "not a prime no")
-            break
-        else:
-            print(num, "prime no")
-else:
-    print(num,"not a prime no")
-
-
+import sys
+num1 = int(sys.argv[1])
+num2 = int(sys.argv[2])
+print("nos are {num1} and {num2}")
+sub = num1-num2
+print(sub)
 
 
 
